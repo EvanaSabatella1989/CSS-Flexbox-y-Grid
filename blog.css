@@ -29,7 +29,13 @@ div {
     flex-direction: column;
     border: 1px solid Gainsboro;
     padding: 10px;
+    border-radius: 10px;
   }
+
+div h1{
+  font-size: 23px;
+  
+}  
   
 img {
     width: 100%;
@@ -48,12 +54,31 @@ div:last-child {
     display: flex;
     flex-direction: row;
     grid-column: 1 / 5;
+    height: 300px;
   }
 
   div:last-child img{
-    width: 50%;
+    width: 200%;
   }
 
   div:last-child div{
     display: inline;
-  }  
+  } 
+  
+  footer{
+    text-align: center;
+    color: #333;
+    margin: 30px auto;
+
+}
+
+.boton{
+    
+    padding: 12px 40px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    background: rgb(233, 184, 92);
+    border-radius: 10px;
+    text-decoration: none;
+}
